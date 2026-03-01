@@ -20,6 +20,7 @@ if __name__ == '__main__':
     rf_model.fit(X_train, Y_train)
 
     dump(model, '../models/linear_regression_model.pkl')
+    dump(scaler, '../models/scaler.pkl')
     print("Linear Regression model saved successfully.")
 
     dump(rf_model, '../models/random_forest_model.pkl')
