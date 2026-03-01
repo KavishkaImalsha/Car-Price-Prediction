@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 def load_and_preprocess_data(file_path):
     #load from csv
-    df = pd.read_csv('../data/cardekho.csv')
+    df = pd.read_csv(file_path)
 
     #drop NaNa values columns
     df.dropna(inplace=True)
