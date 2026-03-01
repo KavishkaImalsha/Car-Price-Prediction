@@ -60,26 +60,26 @@ Random Forest significantly improved performance by capturing nonlinear relation
 ## 🚀 How to Run Locally
 
 ## 01. Clone Repository
-git clone https://github.com/KavishkaImalsha/Car-Price-Prediction.git
-cd car-price-prediction
+-git clone https://github.com/KavishkaImalsha/Car-Price-Prediction.git
+-cd car-price-prediction
 
 ## 02. Install Dependencies
-pip install -r requirements.txt
+-pip install -r requirements.txt
 
 ## 03. Build models
-cd src
-python train.py
-cd ../
+-cd src
+-python train.py
+-cd ../
 
 ## 04. Run Backend Server
-uvicorn app.main:app --reload --port 8000
+-uvicorn app.main:app --reload --port 8000
 
 ## 05.Run Frontend
-Open another terminal while running backend.
+-Open another terminal while running backend.
 
-cd frontend
-npm install
-npm run dev
+-cd frontend
+-npm install
+-npm run dev
 
 ## 🔎 Additional Notes
 
