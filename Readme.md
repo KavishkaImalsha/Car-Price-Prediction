@@ -1,2 +1,17 @@
 # Car-Price-Prediction
-Predict car price using Linear Regression model with using scikit-learn
+
+## 📌 Problem Statement
+Predict the selling price of a car based on features.
+
+
+## 📊 Dataset
+Dataset obtained from Kaggle:
+https://www.kaggle.com/datasets/sukhmandeepsinghbrar/car-price-prediction-dataset
+
+## 🛠 Tech Stack
+- Python
+- Scikit-learn
+- FastAPI
+- React
+- VS Code
+
